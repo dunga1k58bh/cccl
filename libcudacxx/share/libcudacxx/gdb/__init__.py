@@ -23,8 +23,9 @@ import complex  # noqa: E402
 import memory_resource  # noqa: E402
 import std_array  # noqa: E402
 import tuple  # noqa: E402
+import span  # noqa: E402
 
-_PRINTERS = (memory_resource, buffer, std_array, complex, tuple)
+_PRINTERS = (memory_resource, buffer, std_array, complex, tuple, span)
 
 
 def register() -> None:

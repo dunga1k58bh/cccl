@@ -14,11 +14,12 @@ import complex
 import memory_resource
 import std_array
 import tuple
+import span
 
 import lldb
 
 _CATEGORY = "cccl"
-_FORMATTERS = (memory_resource, buffer, std_array, complex, tuple)
+_FORMATTERS = (memory_resource, buffer, std_array, complex, tuple, span)
 InternalDict = dict[str, object]
 
 

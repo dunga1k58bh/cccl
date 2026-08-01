@@ -1,0 +1,97 @@
+=============== span.normal.dynamic begin ===============
+cuda::std::span<int, 18446744073709551615> of length 4 = {
+  [0] = -7,
+  [1] = 0,
+  [2] = 42,
+  [3] = 13
+}
+=============== span.normal.dynamic end ===============
+=============== span.normal.static begin ===============
+cuda::std::span<int, 4> of length 4 = {
+  [0] = -7,
+  [1] = 0,
+  [2] = 42,
+  [3] = 13
+}
+=============== span.normal.static end ===============
+=============== span.empty.dynamic begin ===============
+cuda::std::span<int, 18446744073709551615> of length 0
+=============== span.empty.dynamic end ===============
+=============== span.empty.static begin ===============
+cuda::std::span<int, 0> of length 0
+=============== span.empty.static end ===============
+=============== span.single begin ===============
+cuda::std::span<int, 18446744073709551615> of length 1 = {
+  [0] = 99
+}
+=============== span.single end ===============
+=============== span.alias begin ===============
+cuda::std::span<int, 4> of length 4 = {
+  [0] = -31,
+  [1] = 17,
+  [2] = 8,
+  [3] = -64
+}
+=============== span.alias end ===============
+=============== span.const begin ===============
+cuda::std::span<int, 18446744073709551615> of length 4 = {
+  [0] = -7,
+  [1] = 0,
+  [2] = 42,
+  [3] = 13
+}
+=============== span.const end ===============
+=============== span.const_element begin ===============
+cuda::std::span<int const, 18446744073709551615> of length 4 = {
+  [0] = -7,
+  [1] = 0,
+  [2] = 42,
+  [3] = 13
+}
+=============== span.const_element end ===============
+=============== span.pointer_element begin ===============
+cuda::std::span<int*, 18446744073709551615> of length 3 = {
+  [0] = <address>,
+  [1] = <address>,
+  [2] = <address>
+}
+=============== span.pointer_element end ===============
+=============== span.nested begin ===============
+cuda::std::span<cuda::std::span<int, 18446744073709551615>, 2> of length 2 = {
+  [0] = cuda::std::span<int, 18446744073709551615> of length 2 = {
+    [0] = 13,
+    [1] = -5
+  },
+  [1] = cuda::std::span<int, 18446744073709551615> of length 0
+}
+=============== span.nested end ===============
+=============== span.vector.0 begin ===============
+cuda::std::span<int, 18446744073709551615> of length 3 = {
+  [0] = -2,
+  [1] = 4,
+  [2] = 6
+}
+=============== span.vector.0 end ===============
+=============== span.vector.1 begin ===============
+cuda::std::span<int, 18446744073709551615> of length 3 = {
+  [0] = 11,
+  [1] = -9,
+  [2] = 27
+}
+=============== span.vector.1 end ===============
+=============== span.update.before begin ===============
+cuda::std::span<int, 18446744073709551615> of length 3 = {
+  [0] = 6,
+  [1] = -91,
+  [2] = 52
+}
+=============== span.update.before end ===============
+=============== span.update.after begin ===============
+cuda::std::span<int, 18446744073709551615> of length 5 = {
+  [0] = 3,
+  [1] = 85,
+  [2] = -12,
+  [3] = 1,
+  [4] = 2
+}
+=============== span.update.after end ===============
